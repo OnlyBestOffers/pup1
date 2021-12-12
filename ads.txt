@@ -11,9 +11,9 @@
 
  //apply settings iron
                 appKey = PlayerPrefs.GetString("ironId");
-                bannerAdUnit = PlayerPrefs.GetString("ironBanner");
-                interstitialAdUnit = PlayerPrefs.GetString("IronInter");
-                rewardedVideoAdUnit = PlayerPrefs.GetString("IronReward");
+                bannerAdUnit = PlayerPrefs.GetString("DefaultBanner");
+                interstitialAdUnit = PlayerPrefs.GetString("DefaultInterstitial");
+                rewardedVideoAdUnit = PlayerPrefs.GetString("DefaultRewardedVideo");
 
   //apply settings unity
             unityAdsId = PlayerPrefs.GetString("UnityAppId");
