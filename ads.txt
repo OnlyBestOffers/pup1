@@ -1,0 +1,22 @@
+  //apply settings admob
+                interstitialId = PlayerPrefs.GetString("admobinter");
+                bannerId = PlayerPrefs.GetString("admobanner");
+                rewardedVideoId = PlayerPrefs.GetString("admobreward");
+
+
+    //apply settings facebook
+                interstitialId =  PlayerPrefs.GetString("FcbInter");
+                bannerId =  PlayerPrefs.GetString("Fcbbanner");
+                rewardedVideoId =  PlayerPrefs.GetString("Fcbreward");
+
+ //apply settings iron
+                appKey = PlayerPrefs.GetString("ironId");
+                bannerAdUnit = PlayerPrefs.GetString("ironBanner");
+                interstitialAdUnit = PlayerPrefs.GetString("IronInter");
+                rewardedVideoAdUnit = PlayerPrefs.GetString("IronReward");
+
+  //apply settings unity
+            unityAdsId = PlayerPrefs.GetString("UnityAppId");
+            bannerPlacement = PlayerPrefs.GetString("UnityInter");
+            videoAdPlacement = PlayerPrefs.GetString("Unitybanner");
+            rewardedVideoAdPlacement = PlayerPrefs.GetString("unityreward");
